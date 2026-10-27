@@ -1,41 +1,40 @@
 <h1 align="center">Johnny / 四两</h1>
 
 <p align="center">
-  <strong>Building agents and data tools for Chinese markets.</strong><br/>
-  Quant research · market data · AI agents · local-first workflows
+  <strong>Building quantitative systems with AI.</strong><br/>
+  Data integration · factor research · agent tooling
 </p>
 
 ---
 
-### About
+### Focus
 
-I build tools that turn messy market data and agent workflows into something reproducible: data pipelines, research tooling, notification systems, and the documentation that keeps them usable.
+I build quantitative research systems with AI agents in the loop — data integration, factor research, backtesting and review.
 
-My focus is the intersection of **quant research** and **AI agents** — A-share / Hong Kong / US market data, agent channels, and MCP tools.
+The agents do search, extraction, code drafting and cross-checking. The data and the conclusions stay with me.
+
+What still takes the time is the data itself: timestamps, adjustments and corporate actions that disagree across sources, and knowing how much sample is really there.
+
+### What I focus on
+
+- **AI-assisted development.** Agents for search, extraction, code drafting and review; human verification where it matters.
+- **Data.** Point-in-time panels, survivorship-free universes, corporate actions, cross-vendor disagreements.
+- **Factors.** Cross-sectional and event-driven candidates, judged out of sample, by turnover and by capacity.
+- **Evaluation.** Look-ahead and survivorship bias, multiple testing, costs, sample size.
 
 ### Currently
 
-- Building local-first tools for market data, research and agent workflows.
+- Building AI-assisted pipelines that turn multi-market data into point-in-time panels.
+- Developing agent workflows for factor screening and backtest review.
 
 ### Selected work
 
 | Project | What it is |
 | --- | --- |
-| [a-share-card](https://github.com/siliang42/a-share-card) | Local-first A-share memory cards with spaced repetition and live quotes |
-| [stock-calendar-skill](https://github.com/siliang42/stock-calendar-skill) | Source-backed A-share event calendar skill |
-| [awesome-esp32-30-days](https://github.com/siliang42/awesome-esp32-30-days) | Bilingual 30-day ESP32 learning plan |
-
-### How I work
-
-- Reproducible first: environment, command, log, expected output.
-- Minimal diffs; one problem per PR.
-- AI-assisted, but every reproduction and test is run by hand.
-- English for code and PRs; Chinese for product docs when the audience needs it.
+| [a-share-card](https://github.com/siliang42/a-share-card) | Local-first A-share study cards — spaced repetition with live quotes |
+| [a-share-events-calendar](https://github.com/siliang42/a-share-events-calendar) | Source-backed A-share event calendar for policy, macro, industry and company research |
+| [stock-calendar-skill](https://github.com/siliang42/stock-calendar-skill) | The same event-calendar data, packaged as a reusable agent skill |
 
 ### Writing
 
-I write about quant × agents and local-first tooling. Links will be added as the series ships.
-
----
-
-<p align="center"><em>Influence is not a persona. It is verifiable work, reusable writing, and relationships worth referring.</em></p>
+Notes on AI-assisted quant development; links will be added as the series is published.
